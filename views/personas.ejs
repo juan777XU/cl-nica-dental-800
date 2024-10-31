@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+           margin-left: 30px;
+        }
+        table,th,td{
+            border:1px solid rgb(26, 25, 24);
+            border-collapse:collapse;
+         
+        }
+        th,td{
+            padding: 10px;
+        }
+        th{
+            background-color: rgb(23, 119, 90);
+            text-align: left;
+        }
+        .fonde{
+            background-image: url(https://www.smilelife.org/images/smilelife/clinicas/smilelife_clinicas_gallery_fuenla03@2x.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 800px;
+        height: 500px;
+        margin-top: 10px;
+        margin-left: 250px;
+      
+
+        }
+    </style>
+</head>
+<body class="fonde">
+    <form action="/crud_u"method="post">
+        <input type="text" id="txt_ced" name="txt_ced " placeholder="ced">
+        <input type="text" id="txt_nom" name="txt_nom " placeholder="nom">
+        <input type="text" id="txt_apell" name="txt_apll " placeholder="apll">
+        <input type="text" id="txt_numer" name="txt_tel " placeholder="numer">
+        <input type="text" id="txt_correo" name="txt_correo " placeholder="correo">
+        <input type="text" id="txt_pass" name="txt_pass " placeholder="pass">
+        <button type=submit id="btn_crear" name="btn crear" value="crear"> crear</button>
+        <button type=submit id="btn_actualizar" name="btn actualizar" value="actualizar"> actualizar</button>
+        <button type=submit id="btn_borrar" name="btn borrar" value="crear"> borrar</button>
+    </form>
+    <h1>usuarios registrados</h1>
+    <table>
+        <tr>
+            <th>cedula </th>
+            <th>nombre </th>
+            <th>apellido </th>
+            <th>telefono </th>
+            <th>correo</th>
+            <th>contrasenia</th>
+        </tr>
+        <tr>
+            <td>1039291324</td>
+            <td>juan</td>
+            <td>higuita</td>
+            <td>3174984291</td>
+            <td>juanhiguita.2299@gmail.com</td>
+            <td>123456</td>
+        </tr>
+        <tr>
+            <td>1039291324</td>
+            <td>juan</td>
+            <td>higuita</td>
+            <td>3174984291</td>
+            <td>juanhiguita.2299@gmail.com</td>
+            <td>123456</td>
+        </tr>
+        <tr>
+            <td>1039291324</td>
+            <td>juan</td>
+            <td>higuita</td>
+            <td>3174984291</td>
+            <td>juanhiguita.2299@gmail.com</td>
+            <td>123456</td>
+        </tr>
+    </table>
+    
+</body>
+</html>

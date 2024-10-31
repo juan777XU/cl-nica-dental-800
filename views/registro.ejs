@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clinica dental juan</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        body {
+           background-color: rgb(85, 110, 110);
+            font-family: Arial, sans-serif;
+            text-align: center;
+           
+        }
+
+        form {
+           margin-left: 0px;
+           margin-top: 10px;
+        }
+        h1{
+            margin-top: 10px;
+            
+        }
+        
+        
+
+    img{
+        margin-top: 10px;
+    }
+    div{
+        background-color: rgb(111, 115, 126);
+        margin: auto;
+    }
+    .demo{
+        width: 100px;
+        height: 100px;
+    }
+    .contenedor{
+        background-image: url(https://www.smilelife.org/images/smilelife/clinicas/smilelife_clinicas_gallery_fuenla03@2x.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 800px;
+        height: 500px;
+        margin-top: 100px;
+    }
+    </style>
+</head>
+<body >
+ 
+    <div class="contenedor">
+    <img class="demo" src="c:\Users\Juan\Pictures\Saved Pictures\logo-clinica-dental-juan.png" alt="" >
+    <br>
+    <h1>registro del nuevo usuario</h1>
+ 
+     <form action="/validar" method="post">
+        
+          cedula:
+          <input class="epa" type="numer" name="ident" id="ced"> <br><br>
+
+          nombre:
+          <input class="epa" type="text" name="nom" id="nom"> <br><br>
+        
+          apellido
+          <input class="epa" type="text" name="apell" id="apell"> <br><br>
+
+          telefono:
+          <input class="epa" type="numer" name="numer" id="numer"><br><br>
+
+          correo:
+          <input class="epa" type="email" name="correo" id="correo"><br><br>
+
+         contrasenia:
+         <input class="epa" type="password" name="pass" id="pass"><br><br>
+
+   
+
+        <input class="boton" type="submit" value="registrar">
+
+       
+     </form>
+    </div>
+</body>
+
+</html>
